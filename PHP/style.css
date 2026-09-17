@@ -1,0 +1,51 @@
+.form-table {
+    width: 700px;
+    margin: 20px auto;
+    border: 1px solid #333;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.form-table td {
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+
+.form-table td:first-child {
+    width: 150px;
+    font-size: 18px;
+}
+
+.form-table input[type="text"],
+.form-table input[type="date"],
+.form-table input[type="number"],
+.form-table select {
+    width: 450px;
+    height: 40px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.form-table h2 {
+    text-align: center;
+    margin: 10px;
+}
+
+.form-table input[type="submit"] {
+    padding: 10px 25px;
+    cursor: pointer;
+}
+.result-table {
+    width: 700px;
+    margin: 20px auto;
+    border: 1px solid #333;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.result-table th,
+.result-table td {
+    padding: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
